@@ -1,21 +1,12 @@
-# DSML_Team_Assignment_MLTISE
-Main repo for the Team Assignment in Data Science and Machine Learning. Group name: Machine learning Technologies in Sustainable Enviroments
+Weather-Analysis with E-Scooter usage.
+Analyzing the correlation between weather conditions and general e-scooter usage with correlating revenue.
 
-# Data Prep
-To read the .csv files in the beginning of the .ipynb please store koeln.csv and essen.csv outside the folder of this repo in an folder called "Data sets". 
-Otherwise python won't find your data sets. They're available at https://uni-koeln.sciebo.de/s/Nv5tueVBupfAYgi
+The Analysis is divided into two segments:
 
-Your folder structure should look like this:
+descriptive analysis
+predictive analysis
 
- ->  folder xyz
- 
-    -> DSML_Team_Assignment_MLTISE (cloned repo folder)
-        -> Misc
-        -> Data prep
-        -> Descriptive Analytics
-        -> Predictive Analytics
-        -> weather_data
-    
-    -> Data sets
-        -> koeln.csv
-        -> essen.csv
+before analyzing, the raw data was extracted from the German weather homepage and the e-scooter data were provided by my professor from machine learning class in university.
+
+The raw data was "dirty" data, which means it was incomplete, 
+
